@@ -2,7 +2,7 @@ name: Build workflow for sonarqube
 on:
   push:
     branches:
-      - master
+      - main
   
 jobs:
   build:
