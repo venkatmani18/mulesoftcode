@@ -1,0 +1,189 @@
+
+C:\Mule\workspace1\mulesonar>SET JAVA_HOME="C:\JAVA" 
+[INFO] Scanning for projects...
+[WARNING] The POM for org.apache.maven.plugins:maven-site-plugin:jar:3.6.1 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.6.1: Plugin org.apache.maven.plugins:maven-site-plugin:3.6.1 or one of its dependencies could not be resolved: org.apache.maven.plugins:maven-site-plugin:jar:3.6.1 was not found in https://repository.mulesoft.org/releases/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of mulesoft-releases has elapsed or updates are forced
+[WARNING] The artifact org.codehaus.mojo:sonar-maven-plugin:jar:3.9.1.2184 has been relocated to org.sonarsource.scanner.maven:sonar-maven-plugin:jar:3.9.1.2184: SonarQube plugin was moved to SonarSource organisation
+[INFO] 
+[INFO] ----------------------< com.mycompany:mulesonar >-----------------------
+[INFO] Building mulesonar 1.0.0-SNAPSHOT
+[INFO] --------------------------[ mule-application ]--------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean-1) @ mulesonar ---
+[INFO] Deleting C:\Mule\workspace1\mulesonar\target
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:clean (default-clean) @ mulesonar ---
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ mulesonar ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:validate (default-validate) @ mulesonar ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:initialize (default-initialize) @ mulesonar ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:generate-sources (default-generate-sources) @ mulesonar ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:process-sources (default-process-sources) @ mulesonar ---
+[INFO] About to fetch required dependencies for artifact: com.mycompany:mulesonar:pom:1.0.0-SNAPSHOT. This may take a while...
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ mulesonar ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:process-resources (default-process-resources) @ mulesonar ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ mulesonar ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:compile (default-compile) @ mulesonar ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:process-classes (default-process-classes) @ mulesonar ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:generate-test-sources (default-generate-test-sources) @ mulesonar ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ mulesonar ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:generate-test-resources (default-generate-test-resources) @ mulesonar ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ mulesonar ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:test-compile (default-test-compile) @ mulesonar ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ mulesonar ---
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:package (default-package) @ mulesonar ---
+[INFO] Building zip: C:\Mule\workspace1\mulesonar\target\mulesonar-1.0.0-SNAPSHOT-mule-application.jar
+[INFO] 
+[INFO] --- mule-maven-plugin:3.3.5:verify (default-verify) @ mulesonar ---
+[INFO] 
+[INFO] ----------------------< com.mycompany:mulesonar >-----------------------
+[INFO] Building mulesonar 1.0.0-SNAPSHOT
+[INFO] --------------------------[ mule-application ]--------------------------
+[WARNING] The POM for org.apache.maven.plugins:maven-site-plugin:jar:3.6.1 is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-site-plugin:3.6.1: Plugin org.apache.maven.plugins:maven-site-plugin:3.6.1 or one of its dependencies could not be resolved: org.apache.maven.plugins:maven-site-plugin:jar:3.6.1 was not found in https://repository.mulesoft.org/releases/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of mulesoft-releases has elapsed or updates are forced
+[INFO] 
+[INFO] --- sonar-maven-plugin:3.9.1.2184:sonar (default-cli) @ mulesonar ---
+[INFO] User cache: C:\Users\venka\.sonar\cache
+[INFO] SonarQube version: 9.5.0.56709
+[INFO] Default locale: "en_IN", source code encoding: "UTF-8"
+[INFO] Load global settings
+[INFO] Load global settings (done) | time=188ms
+[INFO] Server id: 147B411E-AYFhNJe0tKS_yVrlN1Ce
+[INFO] User cache: C:\Users\venka\.sonar\cache
+[INFO] Load/download plugins
+[INFO] Load plugins index
+[INFO] Load plugins index (done) | time=125ms
+[INFO] Load/download plugins (done) | time=313ms
+[INFO] Process project properties
+[INFO] Process project properties (done) | time=16ms
+[INFO] Execute project builders
+[INFO] Execute project builders (done) | time=0ms
+[INFO] Project key: MuleTesting
+[INFO] Base dir: C:\Mule\workspace1\mulesonar
+[INFO] Working dir: C:\Mule\workspace1\mulesonar\target\sonar
+[INFO] Load project settings for component key: 'MuleTesting'
+[INFO] Load project settings for component key: 'MuleTesting' (done) | time=31ms
+[WARNING] SCM provider autodetection failed. Please use "sonar.scm.provider" to define SCM of your project, or disable the SCM Sensor in the project settings.
+[INFO] Load quality profiles
+[INFO] Load quality profiles (done) | time=63ms
+[INFO] Load active rules
+[INFO] Load active rules (done) | time=3078ms
+[INFO] Load analysis cache
+[INFO] Load analysis cache (404) | time=16ms
+[INFO] Load project repositories
+[INFO] Load project repositories (done) | time=110ms
+[INFO] Indexing files...
+[INFO] Project configuration:
+[INFO] 3 files indexed
+[INFO] Quality profile for mule: MuleSoft Rules for Mule 4.x
+[INFO] ------------- Run sensors on module mulesonar
+[INFO] Load metrics repository
+[INFO] Load metrics repository (done) | time=47ms
+[INFO] Sensor JaCoCo XML Report Importer [jacoco]
+[INFO] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[INFO] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[INFO] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=15ms
+[INFO] Sensor CSS Rules [javascript]
+[INFO] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[INFO] Sensor CSS Rules [javascript] (done) | time=0ms
+[INFO] Sensor C# Project Type Information [csharp]
+[INFO] Sensor C# Project Type Information [csharp] (done) | time=0ms
+[INFO] Sensor C# Analysis Log [csharp]
+[INFO] Sensor C# Analysis Log [csharp] (done) | time=16ms
+[INFO] Sensor C# Properties [csharp]
+[INFO] Sensor C# Properties [csharp] (done) | time=0ms
+[INFO] Sensor HTML [web]
+[INFO] Sensor HTML [web] (done) | time=15ms
+[INFO] Sensor com.mulesoft.services.tools.sonarqube.sensor.MuleSensor [mulevalidationsonarqubepluginmule]
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.19
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.21
+[INFO] Validation Result: false : File: mulesonar.xml :Rule:mule4-repository:application.1 internalKey=
+[INFO] Validation Result: false : File: mulesonar.xml :Rule:mule4-repository:application.2 internalKey=
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.20
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.8
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.9
+[INFO] Validation Result: false : File: mulesonar.xml :Rule:mule4-repository:configuration.4 internalKey=
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.5
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.6
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.7
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:flows.6
+[INFO] Validation Result: false : File: mulesonar.xml :Rule:mule4-repository:configuration.1 internalKey=
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:flows.2
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.10
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.2
+[INFO] Validation Result: false : File: mulesonar.xml :Rule:mule4-repository:configuration.3 internalKey=
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:flows.1
+[INFO] Validation Result: false : File: mulesonar.xml :Rule:mule4-repository:flows.3
+[INFO] No locationFindingXPath:params={xpath-expression=
+			count(//mule:mule/mule:flow)=0 or
+			matches(//mule:mule/mule:flow/@name, '^[a-z:\\{}]+(-[a-z]+)*$')
+		, category=flows, xpath-location-hint=}
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:flows.4
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.14
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.15
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.16
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.17
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.18
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.11
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.12
+[INFO] Validation Result: true : File: mulesonar.xml :Rule:mule4-repository:configuration.13
+[INFO] Sensor com.mulesoft.services.tools.sonarqube.sensor.MuleSensor [mulevalidationsonarqubepluginmule] (done) | time=407ms
+[INFO] Sensor Compute size of configuration file [mulevalidationsonarqubepluginmule]
+[INFO] Sensor Compute size of configuration file [mulevalidationsonarqubepluginmule] (done) | time=31ms
+[INFO] Sensor Compute the coverage of the applications [mulevalidationsonarqubepluginmule]
+[INFO] Sensor Compute the coverage of the applications [mulevalidationsonarqubepluginmule] (done) | time=0ms
+[INFO] Sensor Compute number of unit test cases [mulevalidationsonarqubepluginmule]
+[INFO] Sensor Compute number of unit test cases [mulevalidationsonarqubepluginmule] (done) | time=0ms
+[INFO] Sensor Text Sensor [text]
+[INFO] 3 source files to be analyzed
+[INFO] 3/3 source files have been analyzed
+[INFO] Sensor Text Sensor [text] (done) | time=31ms
+[INFO] Sensor VB.NET Project Type Information [vbnet]
+[INFO] Sensor VB.NET Project Type Information [vbnet] (done) | time=0ms
+[INFO] Sensor VB.NET Analysis Log [vbnet]
+[INFO] Sensor VB.NET Analysis Log [vbnet] (done) | time=16ms
+[INFO] Sensor VB.NET Properties [vbnet]
+[INFO] Sensor VB.NET Properties [vbnet] (done) | time=0ms
+[INFO] ------------- Run sensors on project
+[INFO] Sensor Analysis Warnings import [csharp]
+[INFO] Sensor Analysis Warnings import [csharp] (done) | time=0ms
+[INFO] Sensor Zero Coverage Sensor
+[INFO] Sensor Zero Coverage Sensor (done) | time=0ms
+[INFO] SCM Publisher No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+[INFO] CPD Executor Calculating CPD for 0 files
+[INFO] CPD Executor CPD calculation finished (done) | time=0ms
+[INFO] Analysis report generated in 125ms, dir size=129.9 kB
+[INFO] Analysis report compressed in 78ms, zip size=18.8 kB
+[INFO] Analysis report uploaded in 47ms
+[INFO] ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=MuleTesting
+[INFO] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[INFO] More about the report processing at http://localhost:9000/api/ce/task?id=AYFi2gC-BPXLkcjThKJh
+[INFO] Analysis total time: 8.765 s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.343 s
+[INFO] Finished at: 2022-06-14T21:04:23+05:30
+[INFO] ------------------------------------------------------------------------

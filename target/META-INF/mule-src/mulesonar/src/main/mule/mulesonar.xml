@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="mulesonarFlow" doc:id="eef494d5-c26a-4ea1-a590-9a04a4d1ef43" >
+		<scheduler doc:name="Scheduler" doc:id="4bcde1ed-d660-4966-89bd-ce4be0ed7493" >
+			<scheduling-strategy >
+				<fixed-frequency frequency="5" timeUnit="MINUTES"/>
+			</scheduling-strategy>
+		</scheduler>
+		<logger level="INFO" doc:name="Logger" doc:id="93b569ed-9ec9-4386-a353-fdc1daaa6c8a" message='"Sample"'/>
+	</flow>
+</mule>
