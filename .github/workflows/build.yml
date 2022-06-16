@@ -1,4 +1,4 @@
-name: Build
+name: Build workflow for sonarqube
 on:
   push:
     branches:
