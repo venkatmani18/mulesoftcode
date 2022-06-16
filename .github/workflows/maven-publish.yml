@@ -22,10 +22,9 @@ jobs:
       with:
         java-version: '11'
         
-
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
-    - name: Build with Maven
-      run: cd target
-    - name: Build with Maven
-      run: ls -ltr
+      run: mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=venkatmani18_mulesoftcode
+    - name: Swithing Directory
+      run: |
+        cd target
+        ls -ltr
